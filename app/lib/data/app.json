@@ -1,0 +1,75 @@
+{
+	"id": "PutOut.002",
+	"version": "1.2",
+	"minimumVersion": "1.2",
+	"configurationUrl": "",
+	"legal": {
+		"copyright": "Copyright ‌2013 PutOut",
+		"terms": "/local/terms.html",
+		"privacy": "/local/privacy.html"
+	},
+	"settings": {
+		"share": "",
+		"notifications": {
+			"enabled": false,
+			"provider": "UA",
+			"key": "AuKi5Qn3QKGTno3xX9ECYA",
+			"secret": "s-RDQejhRwmx-j4DCaXPMw"
+		},
+		"colors": {
+			"primary": "#509ac7",
+			"secondary": "#FFF",
+			"text":	"#FFF",
+			"theme": "dark"
+		},
+		"useSlideMenu": true
+	},
+	"manifest": [
+		"http://localhost/app/logo.png",
+		"http://localhost/app/logo@2x.png"
+	],
+	"disabled": [
+		{
+			"title": "Web Browser",
+			"type": "web",
+			"image": "glyphicons_060_compass",
+			"tabletSupport": false
+		},
+		{
+			"title": "Magnet Search",
+			"type": "search_tpb",
+			"image": "glyphicons_023_magnet",
+			"tabletSupport": false
+		}
+	],
+	"tabs": [
+		{
+			"menuHeader": "Put.Out Features",
+			"title": "Home",
+			"heading": "How do you make Put.io even better?",
+			"type": "welcome",
+			"image": "glyphicons_290_skull",
+			"tabletSupport": false
+		},
+		{
+			"title": "Put.io File Search",
+			"type": "files",
+			"showSearch": "true",
+			"image": "glyphicons_205_electricity",
+			"tabletSupport": false
+		},
+		{
+			"title": "Transfers",
+			"type": "transfers",
+			"image": "glyphicons_364_cloud_download",
+			"tabletSupport": false
+		},
+		{
+			"title": "All Files",
+			"type": "files",
+			"image": "glyphicons_149_folder_new",
+			"tabletSupport": false
+		}
+
+	]
+}

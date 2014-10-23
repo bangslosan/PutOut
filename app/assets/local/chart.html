@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chart</title>
+		<meta name="viewport" content="user-scalable=0"/>
+		<script src="chart.min.wvjs" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="background: #59ade2;">
+		<div>
+			<canvas id="myChart"></canvas>
+			<!-- <canvas id="myChart2"></canvas> -->
+		</div>
+		<script>
+			Ti.App.addEventListener('renderChart', function(chartData) {
+				var canvas = document.getElementById('myChart');
+				canvas.width = chartData.platformWidth;
+				canvas.height = chartData.platformWidth;
+				//canvas.width = 250;
+				//canvas.height = 250;
+				new Chart(document.getElementById("myChart").getContext("2d")).Doughnut(chartData.data);
+			});
+/*
+			Ti.App.addEventListener('renderChart2', function(chartData2) {
+				var canvas2 = document.getElementById('myChart2');
+				canvas.width = chartData2.platformWidth;
+				canvas.height = chartData2.platformWidth;
+				//canvas2.width = 250;
+				//canvas2.height = 250;
+				//new Chart(document.getElementById("myChart2").getContext("2d")).Bar(chartData2.data);
+
+				var data = {
+					labels : ["January", "February", "March", "April", "May", "June", "July"],
+					datasets : [{
+						fillColor : "rgba(220,220,220,0.5)",
+						strokeColor : "rgba(220,220,220,1)",
+						data : [65, 59, 90, 81, 56, 55, 40]
+					}, {
+						fillColor : "rgba(151,187,205,0.5)",
+						strokeColor : "rgba(151,187,205,1)",
+						data : [28, 48, 40, 19, 96, 27, 100]
+					}]
+				};
+				new Chart(document.getElementById("myChart2").getContext("2d")).Bar(chartData2.data);
+			});
+*/
+		</script>
+	</body>
+</html>

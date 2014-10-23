@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<VideoPlayer ns="Ti.Media" id="content" platform="ios" />
+
+	</View>
+</Alloy>

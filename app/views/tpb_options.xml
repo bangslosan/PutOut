@@ -1,0 +1,40 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<ScrollView id="content">	
+			
+			<Label>Order by: </Label>
+			<Picker id="orderBy">
+	            <PickerColumn>
+	                <PickerRow title="Seeds"/>
+	                <PickerRow title="Leechers"/>
+	                <PickerRow title="Size"/>
+	                <PickerRow title="Uploaded"/>
+	                <PickerRow title="Name"/>
+	                <PickerRow title="Type"/>
+	            </PickerColumn>
+	            <PickerColumn>
+	                <PickerRow title="Ascending"/>
+	                <PickerRow title="Descending"/>
+	            </PickerColumn>
+	        </Picker>
+			
+			<Label>Filter by: </Label>
+			<Picker id="filterBy">
+	            <PickerColumn>
+	            	<PickerRow title="Show All"/>
+	                <PickerRow title="Audio"/>
+	                <PickerRow title="Video"/>
+	                <PickerRow title="Applications"/>
+	                <PickerRow title="Games"/>
+	                <PickerRow title="Other"/>
+	            </PickerColumn>
+	        </Picker>
+	        
+	        <Button id="save" class="defaultButton">SAVE</Button>
+	        
+		</ScrollView>
+
+	</View>
+</Alloy>

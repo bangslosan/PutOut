@@ -1,0 +1,18 @@
+"#content": {
+	willHandleTouches: "false",
+	top: "0dp"
+},
+"#Wrapper": {
+	layout: "vertical"
+},
+"#instructions": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+},
+"Label": {
+	left: "10dp",
+	top: "10dp",
+	bottom: "10dp",
+	height: Ti.UI.SIZE,
+	color: "#ffffff"
+}

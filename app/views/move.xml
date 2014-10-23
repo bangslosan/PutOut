@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="content">
+			<View id="moveOptions">
+				<View class="spacer" />
+				<Label class="text">Select a destination below.</Label>
+				<View class="horiz">
+					<Button id="cancel" class="defaultButton">CANCEL</Button>
+					<Button id="go" class="defaultButton">MOVE HERE</Button>
+				</View>
+				<View class="spacer" />
+			</View>
+			<TableView id="tv" />		
+		</View>		
+
+	</View>
+</Alloy>

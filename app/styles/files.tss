@@ -1,0 +1,39 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+},
+
+"#search": {
+	height: "0",
+	layout: "horizontal",
+	backgroundColor: "#59ade2"
+},
+
+"TextField": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	bottom: "10dp",
+	height: "50dp",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+
+"#searchText": {
+	//width: "200dp",
+	width: "75%",
+	height: Ti.UI.SIZE
+},
+
+"#go": {
+	//width: "80dp"
+	left: "2%",
+	width: "15%"
+},
+
+"#container": {
+	layout: "vertical"
+}

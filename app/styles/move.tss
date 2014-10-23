@@ -1,0 +1,42 @@
+"#Wrapper": {
+	backgroundColor: "#ffffff",
+	layout: "vertical"
+},
+
+"#content": {
+	layout: "vertical"
+},
+
+"#tv": {
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+},
+
+"View": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+},
+
+"#moveOptions": {
+	backgroundColor: "#4c90bb",
+	layout: "vertical"
+},
+
+"Label": {
+	left: "10dp",
+	bottom: "10dp",
+	color: "#ffffff",
+	font: {
+		fontWeight: "bold"
+	}
+},
+
+"Button": {
+	left: "20dp",
+	width: "125dp",
+	height: "44dp",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: "#282828",
+	color: "#ffffff",
+	borderRadius: "10dp"
+}

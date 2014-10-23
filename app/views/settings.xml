@@ -1,0 +1,23 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<ScrollView id="content">
+			<View id="advanced">
+				<Label class="formLabel">Browser start page:</Label>
+				<TextField id="homeUrl"></TextField>
+				<Label class="formLabel">Current Pirate Bay domain: (Magnet Search)</Label>
+				<TextField id="tpbUrl"></TextField>
+				<Button id="save" class="defaultButton">Save</Button>
+			</View>			
+			<TableView id="legal_table" height="135dp">
+				<TableViewRow id="terms" title="Terms of Service" hasChild="true" />
+				<TableViewRow id="privacy" title="Privacy Policy" hasChild="true" />
+				<TableViewRow id="logs" title="Send Application Logs" hasChild="true" />
+			</TableView>
+			<Button id="logout" class="defaultButton">Logout</Button>			
+			<Label id="copyright" />
+			<Label id="version" />
+		</ScrollView>
+	</View>
+</Alloy>

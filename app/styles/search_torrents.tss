@@ -1,0 +1,37 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	layout: "vertical"
+},
+
+"#searchBox": {
+	layout: "horizontal",
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: "#59ade2"
+},
+
+"#search": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	width: "210dp",
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	height: "40dp"
+},
+
+"#tv": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+},
+
+"#doSearch": {
+	top: "10dp",
+	left: "0dp",
+	height: "40dp",
+	width: "80dp"
+}

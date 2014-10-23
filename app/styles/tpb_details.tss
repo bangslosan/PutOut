@@ -1,0 +1,30 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	layout: "vertical",
+	backgroundColor: "#549dcc"
+},
+
+"#tv": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+},
+
+"#options": {
+	top: "10dp",
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+},
+
+"#optionsSeparator": {
+	width: Ti.UI.FILL,
+	height: "1dp",
+	backgroundColor: "#3e7699"
+}

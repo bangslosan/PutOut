@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<TableView id="content" />
+	</View>
+</Alloy>

@@ -1,0 +1,57 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	layout: "vertical"
+},
+
+"#searchBox": {
+	layout: "vertical",
+	width: Ti.UI.FILL,
+	height: "115dp",
+	backgroundColor: "#59ade2"
+},
+
+"#searchButtons": {
+	layout: "horizontal",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	center: {
+		x: "50%"
+	}
+},
+
+"#search": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	width: Ti.UI.FILL,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	height: Ti.UI.SIZE
+},
+
+"#tv": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+},
+
+".defaultButton": {
+	height: "40dp",
+	width: "125dp",
+	left: "20dp",
+	right: "20dp"
+},
+
+"#doSearch": {
+	top: "10dp",
+	left: "0dp"
+},
+
+"#optionsSeparator": {
+	width: Ti.UI.FILL,
+	height: "1dp",
+	backgroundColor: "#3e7699"
+}

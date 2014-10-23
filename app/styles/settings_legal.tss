@@ -1,0 +1,6 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	backgroundColor: "#000"
+}

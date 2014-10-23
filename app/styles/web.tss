@@ -1,0 +1,98 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+
+"#fullWrapper": {
+	layout: "absolute"
+},
+
+"#options": {
+	top: 0,
+	backgroundColor: "#4c90bb",
+	width: Ti.UI.FILL
+},
+
+".option": {
+	top: 0,
+	left: 0,
+	visible: false,
+	backgroundColor: "#294F66",
+	layout: "vertical"
+},
+
+"#content": {
+	top: 0,
+	willHandleTouches: "false",
+	height: Ti.UI.FILL,
+},
+
+"#allOptions": {
+	position: "absolute"
+},
+
+"#go": {
+	width: "100dp",
+	left: "10dp"
+},
+
+"#cancel2": {
+	width: "100dp",
+	left: "10dp"
+},
+
+"TextField": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	bottom: "10dp",
+	width: Ti.UI.FILL,
+	height: "50dp",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+
+"Label": {
+	left: "10dp",
+	bottom: "10dp",
+	color: "#ffffff",
+	font: {
+		fontWeight: "bold"
+	}
+},
+
+"Button": {
+	left: "10dp",
+	width: "120dp",
+	height: "44dp",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: "#282828",
+	color: "#ffffff",
+	borderRadius: "10dp",
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	}
+},
+
+".locationButton": {
+	width: "80dp"
+},
+
+"#toolbar": {
+	backgroundColor: "#3e7699",
+	height: "48dp",
+	width: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".container": {
+	left: "15dp",
+	height: "48dp",
+	right: "15dp",
+	width: Ti.UI.SIZE
+},
+".tbutton": {
+	width: "28dp",
+	height: "28dp",
+	touchEnabled: false
+}

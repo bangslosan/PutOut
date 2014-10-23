@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<ScrollView id="content">
+			<View id="main">
+				<Label id="from" class="text">Create Folder</Label>
+				<TextField id="folder" hintText="New Folder Name" />
+				<Button id="go" class="defaultButton">SAVE</Button>
+			</View>
+		</ScrollView>
+
+	</View>
+</Alloy>

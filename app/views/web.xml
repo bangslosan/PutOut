@@ -1,0 +1,47 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="fullWrapper">
+
+			<View id="options">
+				<View id="location" class="option">
+					<TextField id="url" hintText="http://thepiratebay.org"></TextField>
+					<View class="horiz">
+						<Button class="locationButton" id="cancel2">Cancel</Button>
+						<Button class="locationButton" id="home">Home</Button>
+						<Button class="locationButton" id="go">Go</Button>
+					</View>
+				</View>
+				<View id="detect" class="option">
+					<Label>Magnet or Torrent detected!</Label>
+					<View class="horiz">
+						<Button id="gottaHaveIt">Get that ish</Button>
+						<Button id="cancel">Nope</Button>
+					</View>
+				</View>
+			</View>
+			<View id="webWrapper" class="vert">
+				<View id="toolbar">
+					<View id="containerSafari" class="container">
+						<ImageView id="Safari" class="tbutton" image="/icons/white/glyphicons_060_compass.png" />
+					</View>
+					<View id="containerDownload" class="container">
+						<ImageView id="Download" class="tbutton" image="/icons/white/glyphicons_364_cloud_download.png" />
+					</View>
+					<View id="containerBack" class="container">
+						<ImageView id="Back" class="tbutton" image="/icons/white/glyphicons_210_left_arrow.png" />
+					</View>
+					<View id="containerForward" class="container">
+						<ImageView id="Forward" class="tbutton" image="/icons/white/glyphicons_211_right_arrow.png" />
+					</View>
+					<View id="containerRefresh" class="container">
+						<ImageView id="Refresh" class="tbutton" image="/icons/white/glyphicons_081_refresh.png" />
+					</View>
+
+				</View>
+				<WebView id="content" />
+			</View>
+
+		</View>
+	</View>
+</Alloy>

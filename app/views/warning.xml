@@ -1,0 +1,16 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View class="hr" />
+		<ScrollView id="content">
+			<View id="innerContent">
+				<Label class="superHeading">Hi there!</Label>
+				<Label class="heading">Welcome to Put.Out. We want to take this time to make something clear.</Label>
+				<Label class="text">Just as you can access illegal or inappropriate web pages with any web browser, it's possible to intentionally access illegal or inappropriate torrents or magnets. We cannot police network content, just like your browser can't either. It's your responsibility to use this app in a legal and appropriate manner consistent with the Terms of Service for Put.io and this app.</Label>
+				<Label class="text">If you aren’t okay with this policy, please feel free to exit this application and uninstall it from your device.</Label>
+				<Button id="go" class="defaultButton">OK, GOT IT!</Button>
+				<View height="100dp" />
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

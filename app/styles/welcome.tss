@@ -1,0 +1,40 @@
+"#content": {
+	zIndex: 1,
+	top: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	left: "30dp",
+	backgroundColor: "#59ade2",
+	disableBounce: true,
+	showScrollbars: false,
+	enableZoomControls: false
+},
+
+"#Wrapper": {
+	position: "absolute",
+	backgroundColor: "#59ade2",
+	layout: "vertical"
+},
+
+"#main": {
+	layout: "vertical"
+},
+
+".legend": {
+	top: "10dp",
+	left: "15dp",
+	height: "20dp",
+	width: "20dp",
+	backgroundColor: "#eeeeee",
+	borderColor: "#ffffff",
+	borderWidth: "2dp",
+	borderRadius: "10dp"
+},
+
+".horiz[platform=android]": {
+	height: "60dp"
+},
+
+".horiz[platform=ios]": {
+	height: "35dp"
+}

@@ -1,0 +1,26 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<OptionDialog id="dialog" title="File Options">
+            <Options>
+            	<Option>New Folder Here</Option>
+                <Option>Move</Option>
+                <Option>Rename</Option>
+                <Option>Delete</Option>
+                <Option>Download</Option>
+                <Option>Share Download Link</Option>
+                <Option>Copy Download Link</Option>
+                <Option>Share Put.io Link</Option>
+                <Option>Cancel</Option>
+            </Options>
+        </OptionDialog>
+     	<View id="container">
+			<View id="search">
+				<TextField id="searchText" hintText="Search for..." />
+				<Button id="go"  class="defaultButton">GO</Button>
+			</View>
+			<TableView id="content" />
+		</View>
+	</View>
+</Alloy>

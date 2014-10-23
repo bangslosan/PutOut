@@ -1,0 +1,36 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	autoplay: true,
+	backgroundColor: '#ffffff',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+"#main": {
+	layout: "vertical"
+},
+
+"TextField": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	bottom: "10dp",
+	width: Ti.UI.FILL,
+	height: "50dp",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+
+"Label": {
+	top: "10dp",
+	left: "10dp"
+},
+
+"Button": {
+	width: Ti.UI.FILL,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp"
+}

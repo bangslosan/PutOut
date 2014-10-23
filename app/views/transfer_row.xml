@@ -1,0 +1,20 @@
+<Alloy>
+	<TableViewRow id="Wrapper">
+		<View id="row" class="vert">
+			<View class="spacer" />
+			<View id="main" class="horiz">
+				<ImageView id="icon" />
+				<View class="vert">
+					<Label id="name" />
+					<Label id="status" />
+				</View>
+			</View>
+			<View class="spacer" />
+				<View class="borderLine" />
+					<View id="progressBG" />
+					<View id="progress" />
+				<View class="borderLine"/>
+			<View class="spacer" />
+		</View>
+	</TableViewRow>
+</Alloy>

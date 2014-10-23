@@ -1,0 +1,17 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="main">
+			<Label class="heading" id="header">Put.io Current Storage</Label>
+			<View class="horiz">
+				<View class="legend" id="freeLegend"></View>
+				<Label id="free" class="text">Free: </Label>			
+			</View>
+			<View class="horiz">
+				<View class="legend" id="usedLegend"></View>
+				<Label id="used" class="text">Used: </Label>			
+			</View>
+			<WebView id="content" />
+		</View>
+	</View>
+</Alloy>

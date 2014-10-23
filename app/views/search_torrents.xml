@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<View id="content">
+			<View id="searchBox">
+				<TextField id="search" hintText="Find Torrent"></TextField>
+				<Button id="doSearch" class="defaultButton">GO</Button>				
+			</View>
+			<TableView id="tv" />
+		</View>
+
+	</View>
+</Alloy>

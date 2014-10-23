@@ -1,0 +1,63 @@
+"View": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"Label": {
+	left: "10dp",
+	color: "#ffffff",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"#Wrapper": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: "#282828"
+},
+"#icon": {
+	left: "10dp",
+	top: "10dp",
+	right: "10dp",
+	bottom: "10dp",
+	width: "27dp",
+	height: "22dp"
+},
+
+"#name": {
+	font: {
+		fontWeight: "bold"
+	},
+	width: "240dp"
+},
+
+"#status": {
+	font: {
+		fontWeight: "normal",
+		fontFamily: Alloy.Globals.customFont1
+	},
+	width: "240dp"
+},
+
+"#main": {
+	width: Ti.UI.FILL
+},
+
+".borderLine": {
+	width: Ti.UI.FILL,
+	height: "2dp",
+	backgroundColor: "#3e7699",
+	top: 0,
+	bottom: 0
+},
+
+"#progress": {
+	left: 0,
+	top: "-20dp",
+	height: "20dp"
+},
+
+"#progressBG": {
+	top: 0,
+	height: "20dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#FFFFFF"
+}

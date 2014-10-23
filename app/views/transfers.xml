@@ -1,0 +1,15 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<OptionDialog id="dialog" title="File Options">
+            <Options>
+            	<Option>Go to File</Option>
+                <Option>Cancel Transfer</Option>
+                <Option>Clean Completed</Option>
+                <Option>Nevermind</Option>       
+            </Options>
+        </OptionDialog>
+		<TableView id="content">
+		</TableView>
+	</View>
+</Alloy>

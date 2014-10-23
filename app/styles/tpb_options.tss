@@ -1,0 +1,29 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	layout: "vertical",
+	backgroundColor: "#549dcc"
+},
+
+"Label": {
+	left: "10dp",
+	top: "20dp",
+	font: {
+		fontSize: "22dp",
+		fontWeight: "bold"
+	},
+	color: "#ffffff"
+},
+
+"Picker": {
+	top: "10dp",
+	selectionIndicator: true,
+	useSpinner: true
+},
+
+"#save": {
+	left: "10dp",
+	right: "10dp",
+	bottom: "20dp"
+}

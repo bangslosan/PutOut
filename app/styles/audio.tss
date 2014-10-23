@@ -1,0 +1,93 @@
+"#Wrapper": {
+	backgroundColor: "#4ea9de",
+	layout: "vertical"
+},
+
+"#content": {
+	autoplay: true,
+	backgroundColor: "#4e87a4",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	top: "0dp",
+	left: "0dp",
+	right: "0dp"
+},
+
+"#inner": {
+	left: "4dp",
+	top: "4dp"
+},
+
+"#albumArt": {
+	left: "0dp",
+	top: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+},
+
+"#playPause": {
+	image: "/controls/pause.png",
+	//width: "80dp",
+	height: "50dp"
+},
+
+"#progressBar": {
+	width: Ti.UI.FILL,
+	height: "20dp",
+	backgrondColor: "#00ff00"
+},
+
+"#prev": {
+	image: "/controls/back.png",
+	width: "50dp" //,
+	//height: "70dp"
+},
+
+"#next": {
+	image: "/controls/next.png",
+	width: "50dp" //,
+	//height: "70dp"
+},
+
+"#controls": {
+	width: Ti.UI.SIZE,
+	height: "80dp",
+	layout: "horizontal"
+},
+
+"#controlsWrapper": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "absolute"
+},
+
+".controlButton": {
+	width: "100dp",
+	height: "80dp",
+	backgroundColor: "#5da5cb",
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN
+},
+
+"#trackInfo": {
+	width: Ti.UI.FILL,
+	height: "50dp",
+	bottom: "0dp"
+},
+
+"#trackOverlay": {
+	backgroundColor: "#5da5cb",
+	opacity: 0.5,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+
+"#trackName": {
+	left: "10dp",
+	top: "10dp",
+	color: "#ffffff",
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	}
+}

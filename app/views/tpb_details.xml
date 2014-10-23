@@ -1,0 +1,16 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		
+		<View id="content">	
+			<View id="options">
+				<Button id="download" class="defaultButton">DOWNLOAD TO PUT.IO</Button>			
+			</View>	
+			<View id="optionsSeparator" />	
+			<TableView id="tv">
+				<TableViewRow color="#fff" title="Comments loading..." />
+			</TableView>
+		</View>
+
+	</View>
+</Alloy>

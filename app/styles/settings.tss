@@ -1,0 +1,71 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	backgroundColor: "#EEE",
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE,
+	layout: "vertical"
+},
+"#advanced": {
+	backgroundColor: "#EEE",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	visible: false
+},
+"TableView": {
+	right: "10dp",
+	left: "10dp",
+	top: "10dp",
+	borderRadius: "10dp",
+	borderColor: "#DDD",
+	separatorColor: "#DDD",
+	rowHeight: "45dp",
+	backgroundColor: "#FFF",
+	scrollable: false
+},
+"TextField": {
+	height: Ti.UI.SIZE
+},
+"TableViewRow": {
+	selectedBackgroundColor: "#DDD",
+	font: {
+		fontSize: "16dp",
+		fontWeight: "bold"
+	},
+	color: "#666",
+	height: "45dp"
+},
+"Label": {
+	color: "#AAA",
+	font: {
+		fontSize: "12dp",
+		fontWeight: "bold"
+	},
+	top: "5dp",
+	left: "15dp",
+	right: "15dp",
+	height: Ti.UI.SIZE,
+	textAlign: "center"
+},
+
+".formLabel": {
+	left: "10dp",
+	top: "10dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color: "#333333",
+	font: {
+		fontSize: "22dp"
+	}
+},
+
+"#copyright": {
+	top: "10dp"
+},
+
+".defaultButton": {
+	left: "10dp",
+	right: "10dp",
+	width: Ti.UI.FILL
+}

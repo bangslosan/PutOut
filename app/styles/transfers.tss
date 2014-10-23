@@ -1,0 +1,7 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#content": {
+	separatorColor: "#3e7699",
+	backgroundColor: "#549dcc"
+}

@@ -1,0 +1,30 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<ScrollView id="content">
+			<View id="inner" layout="vertical">
+				<Label id="noArt">Album art could not be found.</Label>
+				<ImageView id="albumArt">
+					<View id="trackInfo">
+						<View id="trackOverlay"></View>
+						<Label id="trackName" />
+					</View>
+				</ImageView>
+				<View id="progressBar"></View>
+				<View id="controlsWrapper">
+					<View id="controls">
+						<View id="prevWrapper" class="controlButton">
+							<ImageView id="prev" />
+						</View>
+						<View id="playPauseWrapper" class="controlButton">
+							<ImageView id="playPause" />
+						</View>
+						<View id="nextWrapper" class="controlButton">
+							<ImageView id="next" />
+						</View>
+					</View>
+				</View>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

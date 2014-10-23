@@ -1,0 +1,140 @@
+"Window": {
+	modal: false
+},
+"#NavigationBar": {
+	image: "/images/logo.png"
+},
+"TableView": {
+	scrollsToTop: false
+},
+"WebView": {
+	scrollsToTop: false
+},
+"TextArea": {
+	scrollsToTop: false
+},
+"ScrollView": {
+	scrollsToTop: false
+},
+".customFont": {
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	}
+},
+
+".hide": {
+	visible: false
+},
+
+"TextField": {
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	},
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	width: Ti.UI.FILL,
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	color: "#fff",
+	borderColor: "#4986ac",
+	borderWidth: "1dp",
+	backgroundColor: "#4c90bb"
+},
+
+"TextField[platform=android]": {
+	height: Ti.UI.SIZE
+},
+
+"TextField[platform=ios]": {
+	height: "40dp",
+},
+
+".hr": {
+	height: "1dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#3e7699"
+},
+".headerView": {
+	backgroundColor: "#4c90bb"
+},
+".spacer": {
+	height: "10dp",
+	width: Ti.UI.FILL
+},
+".horiz": {
+	layout: "horizontal"
+},
+".vert": {
+	layout: "vertical"
+},
+
+"#header": {
+	color: "#FFF"
+},
+
+".text": {
+	top: "10dp",
+	left: "15dp",
+	right: "15dp",
+	bottom: "15dp",
+	height: "25dp",
+	font: {
+		fontSize: "18dp",
+		fontWeight: "normal",
+		fontFamily: Alloy.Globals.customFont1
+	},
+	color: "#FFF",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+},
+
+".heading": {
+	top: "15dp",
+	left: "15dp",
+	right: "15dp",
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "22dp",
+		fontWeight: "bold",
+		color: "#FFFFFF",
+		fontFamily: Alloy.Globals.customFont1
+	},
+	color: "#FFF"
+},
+
+".defaultButton": {
+	width: Ti.UI.FILL,
+	height: "40dp",
+	top: "10dp",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: "#4c90bb",
+	borderWidth: "1dp",
+	borderColor: "#4986ac",
+	borderRadius: "5dp",
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	}
+},
+
+".defaultControl": {
+	width: "40dp",
+	height: "40dp",
+	top: "10dp",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: "#4c90bb",
+	borderWidth: "1dp",
+	borderColor: "#4986ac",
+	borderRadius: "5dp",
+	font: {
+		fontSize: "18dp",
+		fontWeight: "bold",
+		fontFamily: Alloy.Globals.customFont1
+	}
+}

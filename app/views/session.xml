@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />	
+		<View class="hr" />
+		<View id="instructions" class="headerView">
+			<Label id="instructionText" class="text">Scroll down to login.</Label>
+		</View>	
+		<View class="hr" />
+		<WebView id="content" />
+	</View>
+</Alloy>
